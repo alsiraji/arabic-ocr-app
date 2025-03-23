@@ -12,9 +12,4 @@ This is a [Next.js](https://nextjs.org) project that allows users to upload imag
 ## Demo Video
 
 Watch the demo video below:
-
-<video width="600" controls>
-  <source src="https://raw.githubusercontent.com/alsiraji/arabic-ocr-app/blob/main/Screen%20Recording%202025-03-23.mp4" type="video/mp4">
-<!-- https://github.com/alsiraji/arabic-ocr-app/blob/main/Screen%20Recording%202025-03-23.mp4 -->
-  Your browser does not support the video tag.
-</video>
+![Demo video](https://github.com/alsiraji/arabic-ocr-app/blob/main/videogif.gif)
