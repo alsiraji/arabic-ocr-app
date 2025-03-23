@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Arabic OCR and Translation App
 
-## Getting Started
+This is a [Next.js](https://nextjs.org) project that allows users to upload images containing Arabic text, perform Optical Character Recognition (OCR) to extract the text, and then translate the extracted text into English. The project is bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Image Upload**: Users can upload images containing Arabic text.
+- **OCR Processing**: The app uses Tesseract.js to perform OCR and extract Arabic text from the uploaded images.
+- **Text Translation**: The extracted text is translated into English using the MyMemory translation API.
+- **User Feedback**: The app provides visual feedback during the processing and translation stages, and displays the detected and translated text.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Demo Video
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Watch the demo video below:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<video width="600" controls>
+  <source src="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/raw/main/arabic-ocr-app/Screen%20Recording%202025-03-23%20at%2008.38.59.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
